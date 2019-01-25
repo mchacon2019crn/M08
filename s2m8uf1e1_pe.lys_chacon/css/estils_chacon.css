@@ -1,0 +1,147 @@
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #222; font-family: Helvetica;
+}
+
+h1 {
+  color: #FFF; }
+
+h4 {
+  color: #FFF; }
+
+
+
+#contenidor {
+  background-color: #222; }
+
+#titol {
+  background-color: #222;
+  width: 450px;
+  border-radius: 5px;
+  margin: 40px 0 0 0;
+  font-size: 14px;
+}
+
+
+#menu {
+  height: 50px;
+  background-color: #black;
+  position: fixed; top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000;
+  width: 400px;
+}
+
+#logo {
+   margin: 5px 20px 5px 20px;
+   background-image: url(../imatges/logo.png);
+   background-repeat: no-repeat;
+ }
+
+.pos {
+  margin-left: ;
+  padding: 5px 20px 5px 20px;
+  background-color: ;
+  background-image: url(../imgatges/logo.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+.grey {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+#menu, #redes {
+  height: 50px;
+  background-color: #;
+  padding: 0 0 0 0px;
+  margin: 0 0 0 92px;
+  width: 1200px; border-bottom:  10px solid #green;
+}
+
+#menu li {
+  float: left;  padding: 0 5px;
+  display: block; font-weight: bold;
+  color: #CCC;
+  background-color: #222;
+  margin-right: 5px;
+  height: 50px;
+  margin: 0 0 0 5px;
+  line-height: 50px;
+  }
+
+#redes li {
+  float: right;
+  padding: 0 5px;
+  display: block;
+  font-weight: bold; color: #CCC;
+  background-color: #222;
+  margin-right: 5px;
+  height: 50px;
+  margin: 0 0 0 5px;
+  line-height: 50px;
+}
+
+#menu li:hover {
+  color: #FFF;
+  background-position: 50% 50px;
+}
+
+#redes li:hover {
+  color: #FFF;
+  background-position: 50% 50px;
+}
+
+#fotos h4 {
+  background-position: 0 -24px;
+ }
+
+#fotos li {
+  display: block; }
+
+#fotos ul li {
+  background-color: red;
+  display: block; width: 175px;
+  height: 260px;
+  margin: 4px;
+  float: left;
+  background-size: 175px 260px;
+  color: transparent;
+}
+
+   #f01 { background-image: url(../imatges/01.jpg); }
+   #f02 { background-image: url(../imatges/02.jpg); }
+   #f03 { background-image: url(../imatges/03.jpg); }
+   #f04 { background-image: url(../imatges/04.jpg); }
+   #f05 { background-image: url(../imatges/05.jpg); }
+   #f06 { background-image: url(../imatges/06.jpg); }
+   #f07 { background-image: url(../imatges/07.jpg); }
+   #f08 { background-image: url(../imatges/08.jpg); }
+   #f09 { background-image: url(../imatges/09.jpg); }
+   #f10 { background-image: url(../imatges/10.jpg); }
+   #f11 { background-image: url(../imatges/11.jpg); }
+
+   #f20 { background-image: url(../imatges/12.jpg); }
+   #f21 { background-image: url(../imatges/13.jpg); }
+   #f22 { background-image: url(../imatges/14.jpg); }
+   #f23 { background-image: url(../imatges/15.jpg); }
+
+
+   #f12 { background-image: url(../imatges/16.jpg); }
+   #f13 { background-image: url(../imatges/16.jpg); }
+
+
+   #f14 { background-image: url(../imatges/18.png); }
+   #f15 { background-image: url(../imatges/18.png); }
+
+   #f16 { background-image: url(../imatges/19.jpg); }
+   #f17 { background-image: url(../imatges/19.jpg); }
+
+   #f1 { background-image: url(../imatges/16.jpg); }
+   #f2 { background-image: url(../imatges/16.jpg); }
