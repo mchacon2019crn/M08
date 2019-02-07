@@ -1,0 +1,430 @@
+/*Version escritorio*/
+
+@media only screen and (min-width: 960px){
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e9eaed;
+  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+}
+
+#barra{
+  height: 43px;
+  background-color: #5066ae;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+#contingut{
+  height: auto;
+  width: 852px;
+  background-color: #e9eaed;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#contingut #cap{
+  height: 358px;
+  width: 100%;
+  background-image: url(../img/sagrada.jpg);
+  background-repeat: no-repeat;
+  border: solid 1px #DDD;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+
+#contingut #cap img{
+  position: relative;
+  top: 170px;
+  left: 16px;
+  border-radius: 50%;
+  border: solid white 4px;
+  box-shadow: 2px 2px 2px #666;
+}
+
+#contingut #cap h2{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 85px;
+  left: 200px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+#contingut #cap #menu{
+  height: 45px;
+  background-color: #e9eaed;
+  width: 591px;
+  float: right;
+  position: relative;
+  top: 104px;
+  padding: 0;
+  margin: 0;
+}
+
+#contingut #cap #menu li{
+  float: left;
+  margin: 0 1px;
+  list-style: none;
+  background-color: white;
+  display: block;
+  height: 45px;
+  padding: 0 15px;
+  line-height: 43px;
+  color:#5066ae;
+}
+
+#contingut #cap #menu li:hover{
+  background-color: #e9eaed;
+}
+
+#principal{
+  height: 1462px;
+  width: 100%;
+  background-color: #e9eaed;
+  overflow: hidden;
+}
+
+.izq{
+  height: auto;
+  width: 300px;
+}
+
+.drc{
+  height: auto;
+  width: 492px;
+  float: right;
+  clear: right;
+}
+
+.izq, .drc{
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  margin-top: 12px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+aside{
+  width: 322px;
+  float: left;
+  clear: left;
+}
+
+#principal h3{
+  margin-top: 0;
+  text-indent: 30px;
+  line-height: 24px;
+  height: 24px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+}
+
+#presentacion p{
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: solid 1px #DDD;
+
+}
+
+#presentacion, #amistades, #fotos, #sorpresa, #algo{
+font-size: 12px;
+}
+
+#amistades li, #fotos li{
+  list-style: none;
+}
+
+#principal #amistades li{
+  float: left;
+}
+}
+
+#amistades h3{
+  background-position: 0 -48px;
+}
+
+#fotos h3{
+  background-position: 0 -24px;
+}
+
+#sorpresa h3{
+  background-position: 0 -72px;
+}
+
+#algo h3{
+  background-position: 0 -96px;
+}
+
+.estudios{
+list-style-image: url(../iconetes/icones_estudis.png);
+}
+
+.donde{
+list-style-image: url(../iconetes/icones_domicili.png);
+}
+
+.nacio{
+list-style-image: url(../iconetes/icones_ubicacio.png);
+}
+
+.trabajo{
+list-style-image: url(../iconetes/icones_feina.png);
+}
+
+a:link{
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+a:active{
+  color: darkred;
+  text-decoration: none;
+}
+
+#amistades ul{
+  margin: 0;
+  padding: 0;
+}
+
+#amistades li{
+  margin: 2px;
+  float: left;
+  height: 90px;
+  width: 90px;
+  position: relative;
+}
+
+#fotos ul{
+  margin: 0;
+  padding: 0;
+}
+
+#fotos li{
+  margin: 0;
+  padding: 0;
+  margin: 2px;
+  float: left;
+  height: 90px;
+  width: 90px;
+  position: relative;
+  background-color: red;
+}
+
+#f1{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f2{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f3{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f4{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f5{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f6{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f7{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f8{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#f9{
+  background-image: url(../img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#Sandra{
+  background-image: url(https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#Oriol{
+  background-image: url(https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png);
+  background-size: cover;
+}
+
+#Noe{
+  background-image: url(https://nchia2019crn.github.io/M08/s2m8uf104_chia/img/perfil.jpg);
+  background-size: cover;
+}
+
+#Patri{
+  background-image: url(https://psanz2019crn.github.io/M08/s2m8uf104_sanz/img/aoperfil.gif);
+  background-size: cover;
+}
+
+#Siria{
+  background-image: url(https://sfernandez2019crn.github.io/M08/s2m8uf104_fernandez/img/gos.png);
+  background-size: cover;
+}
+
+#Hulio{
+  background-image: url(https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg);
+  background-size: cover;
+}
+
+#Steeven{
+  background-image: url(https://sgarzon2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg);
+  background-size: cover;
+}
+
+#Thor{
+  background-image: url(https://vherrero2019crn.github.io/M08/s2m8uf104facebook/img/perfil.png);
+  background-size: cover;
+}
+
+#Yaiza{
+  background-image: url(https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg);
+  background-size: cover;
+}
+
+#amistades li a:link{
+  background-color: rgba(0,0,0,0.4);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+
+#d1{
+  width: 492px;
+  padding-top: 0;
+  font-size: 10px;
+}
+
+#d1 ul{
+    width: 492px;
+    padding-top: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#ul1{
+  background-color: #f5f5f7;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -12px;
+}
+
+#d1 ul li{
+  float: left;
+  margin: 0;
+  padding: 12px;
+}
+
+#pensament{
+  clear: left;
+  padding: 12px;
+  height: 35px;
+  width: 400px;
+  position: relative;
+  left: -30px;
+  float: right;
+  border: 0;
+}
+
+#d1 #ul2{
+  height: 40px;
+  width: 516px;
+  margin: 0 0 0 1px;
+  background-color: white;
+  position: relative;
+  left: -12px;
+  line-height: 35px;
+}
+
+#miniperfil{
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  position: relative;
+  top: 9px;
+  z-index: 1000;
+}
+
+
+#ul2 li{
+  list-style-type: none;
+  height: 10px;
+  margin: 0 0 0 1px;
+  padding: 0;
+  font-size: 8px;
+  float: left;
+  background-color: #f5f5f7;
+  border-radius: 13px;
+  text-indent: 24px;
+  line-height: 10px;
+}
+
+#estadofotovideo{
+  background-image: url(../img/botons.png);
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+}
+
+
+#etiquetar{
+  background-image: url(../img/botons2.png);
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+}
+
+
+#sentimiento{
+  background-image: url(../img/botons3.png);
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+}
+
+#ul2 li:hover{
+  opacity: 0.5;
+}
+
+/*Versió Mobil*/
+
+@media only screen and (max-width: 959px); {
+}
